@@ -32,6 +32,10 @@ nvm use 14;
 cd graphDelta
 npm install
 
+## Clear token cache to get RT's
+az account clear
+## this will place refresh token in the session
+az login
 
 ## checks
 node getDelta.js --type=users;
