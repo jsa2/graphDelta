@@ -13,7 +13,7 @@ https://docs.microsoft.com/en-us/graph/delta-query-overview
 
 2. Run the following in console
 ```
-git clone
+git clone https://github.com/jsa2/graphDelta
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 
