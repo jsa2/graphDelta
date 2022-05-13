@@ -28,7 +28,7 @@ Initial delta will get all the previous data.
 ```
 git clone https://github.com/jsa2/graphDelta;
 nvm use 14; 
-cd deltaMon
+cd graphDelta
 node getDelta.js --type=users;
 node getDelta.js --type=groups;
 node getDelta.js --type=applications;
