@@ -39,7 +39,7 @@ async function main () {
        let url = `https://graph.microsoft.com/v1.0/${argv.type}/delta`
 
        try {
-           url = JSON.parse(readFileSync(`${argv.type}.json`))?.delta
+           url = JSON.parse(readFileSync(`delta/${argv.type}.json`))?.delta
        } catch(error) {
         console.log('no existing deltaLink')
        }
