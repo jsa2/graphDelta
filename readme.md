@@ -19,7 +19,8 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
+nvm install 14;
+nvm use 14; 
 
 ```
 
@@ -27,8 +28,12 @@ export NVM_DIR="$HOME/.nvm"
 Initial delta will get all the previous data.
 ```
 git clone https://github.com/jsa2/graphDelta;
-nvm use 14; 
+nvm use 14;
 cd graphDelta
+npm install
+
+
+## checks
 node getDelta.js --type=users;
 node getDelta.js --type=groups;
 node getDelta.js --type=applications;
