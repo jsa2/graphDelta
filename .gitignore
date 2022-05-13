@@ -1,0 +1,10 @@
+node_modules
+#Exclude all log files
+*.LOG
+*.txt
+*.json
+*.JSON
+# exclude from JSON and MD flag
+!accepted.json
+!package.json
+!dontremove.txt
