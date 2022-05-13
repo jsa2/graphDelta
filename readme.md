@@ -24,7 +24,7 @@ export NVM_DIR="$HOME/.nvm"
 
 ```
 
-### Running
+### Running the checks
 Initial delta will get all the previous data.
 ```
 git clone https://github.com/jsa2/graphDelta;
